@@ -1,0 +1,30 @@
+### STS ###
+.apt_generated
+.factorypath
+.settings
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+/.svn
+/.git
+bin/
+*.class
+*.ldb
+*.log
+target/
+
+!.project
+!.classpath
