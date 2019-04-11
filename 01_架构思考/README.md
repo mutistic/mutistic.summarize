@@ -1,4 +1,4 @@
-# <a id="a_top"></a> [架构思考大纲](https://github.com/mutistic/mutistic.summarize/tree/master/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83)
+# <a id="a_top">[架构思考大纲](https://github.com/mutistic/mutistic.summarize/tree/master/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83)</a>
 ### 目录：
 1. <a href="#a_01">架构概述</a>
 98. <a href="#a_notes">Notes</a>
@@ -10,7 +10,7 @@
 |邮箱|mutistic@qq.com|
 
 ---
-## <a id="a_01"></a>[一、架构概述](https://github.com/mutistic/mutistic.summarize/blob/master/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83/1_%E6%9E%B6%E6%9E%84%E6%A6%82%E8%BF%B0.md) <a href="#a_top">top</a> <a href="#a_02"></a>
+## <a id="a_01">[一、架构概述](https://github.com/mutistic/mutistic.summarize/blob/master/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83/1_%E6%9E%B6%E6%9E%84%E6%A6%82%E8%BF%B0.md)</a> <a href="#a_top">top</a> <a href="#a_02"></a>
 #### 目录  
 [一、分布式架构](https://github.com/mutistic/mutistic.summarize/blob/master/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83/1_%E6%9E%B6%E6%9E%84%E6%A6%82%E8%BF%B0.md#a_01)  
 [1.1、为什么需要分布式架构](https://github.com/mutistic/mutistic.summarize/blob/master/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83/1_%E6%9E%B6%E6%9E%84%E6%A6%82%E8%BF%B0.md#a_11)  
@@ -30,9 +30,11 @@
 
 
 ---
-### <a id="a_notes">[Notes](https://github.com/mutistic/mutistic.mybatis/blob/master/com.mutistic.mybatis/notes)</a> <a href="#">last</a> <a href="#a_down">down</a>
-[01_架构思考思维导图](https://github.com/mutistic/mutistic.mybatis/blob/master/com.mutistic.mybatis/notes/Postman_SpringBoot-MyBatis.json)  
-![]()
+### <a id="a_notes">Notes</a> <a href="#">last</a> <a href="#a_down">down</a>
+[n1_架构思考思维导图](https://github.com/mutistic/mutistic.summarize/tree/master/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83/design/s1_architecture)  
+[n2_架构概述设计图](https://github.com/mutistic/mutistic.summarize/blob/master/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.xmind)    
+
+![架构思考思维导图](https://github.com/mutistic/mutistic.summarize/blob/master/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83/01_%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.png)
 
 ---
 <a id="a_down"></a>  
