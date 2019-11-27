@@ -2,12 +2,14 @@
 > MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生
 ><br/>作者是国内开发员baomidou的开源项目
 	
-#### MyBatis-Plus guide：[https://mybatis.plus/guide/](https://mybatis.plus/guide/)
-#### Mybatic Plsh github：[https://github.com/baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)
+DOCUMENT | URL
+---|---
+MyBatis Plus 指南 |[https://mybatis.plus/guide/](https://mybatis.plus/guide/)
+MyBatis Plus github |[https://github.com/baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)
 
-## MyBatis Plus Maven
+## MyBatis Plus 引入方式
 > 201911最新版本 3.2.0
-#### Maven：MyBatis Plus
+#### Apache Maven：MyBatis Plus
 ```xml
 <dependency>
   <groupId>com.baomidou</groupId>
@@ -16,7 +18,7 @@
 </dependency>
 ```
 
-#### Maven：MBbatis Plus Boot Starter
+#### Apache Maven：MBbatis Plus Boot Starter
 ```xml
 <dependency>
  <groupId>com.baomidou</groupId>
@@ -25,7 +27,7 @@
 </dependency>
 ```
 
-## Spring Boot简单使用MyBatis Plus
+## 在Spring Boot简单使用MyBatis Plus
 1、数据库表 ddl：
 ```sql
 CREATE TABLE `goods_price` (
@@ -117,9 +119,9 @@ public class GoodsPriceServiceImpl extends ServiceImpl<GoodsPriceMapper, GoodsPr
 5、Controller：
 ```Java
 package com.core.data.controller;
-import com.core.datacollect.mapper.GoodsPriceMapper;
-import com.core.datacollect.model.GoodsPrice;
-import com.core.datacollect.service.IGoodsPriceService;
+import com.core.data.mapper.GoodsPriceMapper;
+import com.core.data.model.GoodsPrice;
+import com.core.data.service.IGoodsPriceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
