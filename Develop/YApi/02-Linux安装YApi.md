@@ -40,7 +40,7 @@ node vendors/server/app.js
 nohup node /home/devUser/local/yapi/my-yapi/vendors/server/app.js 2>&1 &
 ```
 
-![启动yapi服务端](images/02-1.2.2.1-启动yapi服务端.png)  
+![启动yapi服务端](Develop/YApi/images/02-1.2.2.1-启动yapi服务端.png)  
 ![启动yapi服务端](https://github.com/mutistic/mutistic.summarize/blob/master/Develop/YApi/images/02-1.2.2.1-启动yapi服务端.png)  
 
 
