@@ -41,6 +41,8 @@ nohup node /home/devUser/local/yapi/my-yapi/vendors/server/app.js 2>&1 &
 ```
 
 ![启动yapi服务端](images/02-1.2.2.1-启动yapi服务端.png)  
+
+
 1.2.2、进入到部署界面：
 启动后显示的访问链接内网链接：http://0.0.0.0:9090  
 可以通过外网IP访问，需要开通9090端口号：http://47.103.72.45:9090/  
