@@ -92,8 +92,13 @@ get test
 protected-mode yes
 #更改默认启动端口，可不改，默认6379
 port 12011
+#设置pid文件
+pidfile /var/run/redis_12011.pid
 #设置redis启动密码
-requirepass Woodu!Redis!654321
+requirepass Redis!654321
+#修改启动方式为后台进程
+daemonize yes
+
 # 启动redis服务端
 cd /home/prodUser/local/redis/src
 ./redis-server ../redis.conf
@@ -105,11 +110,16 @@ cd /home/prodUser/local/redis/src
 ```
 # 启动redis客户端
 cd /home/prodUser/local/redis/src
+# 默认连接 127.0.0.1:6379
 ./redis-cli
+# 使用指定ip 端口链接 密码
+#./redis-cli -h 指定ip -p 指定端口 -a 指定密码
+./redis-cli -p 12011
+
 # 无授权访问
 get hello
 # 授权
-auth Woodu!Redis!654321
+auth Redis!654321
 ```
 ![02-3.2.1-客户端连接授权](images/02-3.2.1-客户端连接授权.png)
 
