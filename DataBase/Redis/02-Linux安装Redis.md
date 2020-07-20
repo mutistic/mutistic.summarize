@@ -1,17 +1,19 @@
 ### 命令概览：
-0.1、linux命令概览  
+0.1、redis命令概览  
 ```shell
-cd /usr/local/dev/mongodb/bin #进入mongodb bin目录
-ps -ef | grep mongod #查看mongodb进程号
-netstat -anp | grep mongod #查看mongodb端口号
-kill -9 pid #杀掉进程
-```
+#通过配置文件启动redis服务
+./redis-server ../redis.conf 
+# 通过客户端连接redis
+./redis-cli -p 12011 
 
-0.2、mongdb命令概览  
-```shell
-./mongod -f mongodb.conf #通过配置文件启动mongodb服务
-./mongod --shutdown -f mongodb.conf #通过配置文件关闭mongodb服务
-./mongod --dbpath=/usr/local/dev/mongodb/data/db #通过指定参数启动mongodb服务
+# -- 客户端操作
+# 登录
+auth Redis!654321
+./redis-cli
+# 检查redis是否设置了密码
+CONFIG get requirepass
+# 命令方式设置密码
+CONFIG set requirepass "Redis!654321"
 ```
 
 ### 一、下载Redis：
@@ -129,7 +131,7 @@ auth Redis!654321
 # 检查redis是否设置了密码
 CONFIG get requirepass
 # 命令方式设置密码
-CONFIG set requirepass "Woodu!Redis!654321"
+CONFIG set requirepass "Redis!654321"
 ```
 ![02-3.2.2-检查和设置redis访问密码](images/02-3.2.2-检查和设置redis访问密码.png)  
 
